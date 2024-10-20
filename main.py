@@ -51,7 +51,61 @@ st.write('''<style>
 
 pilih_topik = st.radio(
     "Tahun Terbit Artikel: ",
-    [":rainbow[2000]",":rainbow[2001]", ":rainbow[2007]", ":rainbow[2008]", ":rainbow[2009]", ":rainbow[2010]",":rainbow[2011]",  ":rainbow[2015]",     ])
+    [":rainbow[1991]",":rainbow[1993]",":rainbow[2000]",":rainbow[2001]", ":rainbow[2007]", ":rainbow[2008]", ":rainbow[2009]", ":rainbow[2010]",":rainbow[2011]",  ":rainbow[2015]",     ])
+
+
+
+
+
+
+if pilih_topik == ":rainbow[1991]":
+    st.write('''<br><br><br><center><font color = "red" size = 7>Artikel Tahun Terbit 1991</font></center> ''', unsafe_allow_html = True)
+
+    st.write('''[1] <font color = "#0000ff">Judul: A new measure of irregularity of distribution</font><br><font color = "#ff00ff">Jurnal: Journal of Number Theory</font><br><font color = "#f4c430">Tahun Terbit Artikel: 1991</font><br><font color = "#32cd32">Publisher: Elsevier</font><br><a href = "https://www.sciencedirect.com/science/article/pii/0022314X9190055G" target = "_blank" style = "text-decoration:none">Link Artikel</a>
+
+
+
+             ''', unsafe_allow_html = True)
+    
+
+    st.markdown(
+    """<a href="https://www.sciencedirect.com/science/article/pii/0022314X9190055G">
+    <img src="https://statkomat.com/GLD/1991/1/1.png" width="800"><br>
+    </a>""",
+    unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+if pilih_topik == ":rainbow[1993]":
+    st.write('''<br><br><br><center><font color = "red" size = 7>Artikel Tahun Terbit 1993</font></center> ''', unsafe_allow_html = True)
+
+    st.write('''[1] <font color = "#0000ff">Judul: Random and quasirandom sequences: Numerical estimates of uniformity of distribution</font><br><font color = "#ff00ff">Jurnal: Mathematical and Computer Modelling</font><br><font color = "#f4c430">Tahun Terbit Artikel: 1993</font><br><font color = "#32cd32">Publisher: Elsevier</font><br><a href = "https://www.sciencedirect.com/science/article/pii/089571779390160Z" target = "_blank" style = "text-decoration:none">Link Artikel</a>
+
+
+
+             ''', unsafe_allow_html = True)
+    
+
+    st.markdown(
+    """<a href="https://www.sciencedirect.com/science/article/pii/089571779390160Z">
+    <img src="https://statkomat.com/GLD/1993/1/2.png" width="800"><br>
+    </a>""",
+    unsafe_allow_html=True)
+
+
+
+
+
 
 
 
