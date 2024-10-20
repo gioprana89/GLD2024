@@ -51,7 +51,110 @@ st.write('''<style>
 
 pilih_topik = st.radio(
     "Tahun Terbit Artikel: ",
-    [":rainbow[1991]",":rainbow[1993]",":rainbow[2000]",":rainbow[2001]", ":rainbow[2007]", ":rainbow[2008]", ":rainbow[2009]", ":rainbow[2010]",":rainbow[2011]",  ":rainbow[2015]",     ])
+    [":rainbow[1955]",":rainbow[1978]",":rainbow[1986]"  ,":rainbow[1991]",":rainbow[1993]",":rainbow[2000]",":rainbow[2001]", ":rainbow[2007]", ":rainbow[2008]", ":rainbow[2009]", ":rainbow[2010]",":rainbow[2011]",  ":rainbow[2015]",     ])
+
+
+
+
+
+
+if pilih_topik == ":rainbow[1955]":
+    st.write('''<br><br><br><center><font color = "red" size = 7>Artikel Tahun Terbit 1955</font></center> ''', unsafe_allow_html = True)
+
+    st.write('''[1] <font color = "#0000ff">Judul: A Million Random Digits with 100,000 Normal Deviates</font><br><font color = "#ff00ff">Jurnal: </font><br><font color = "#f4c430">Tahun Terbit Artikel: 1955</font><br><font color = "#32cd32">Publisher: RAND</font><br><a href = "https://www.amazon.com/Million-Random-Digits-Normal-Deviates/dp/0833030477" target = "_blank" style = "text-decoration:none">Link Artikel</a>
+
+
+
+             ''', unsafe_allow_html = True)
+    
+
+    st.markdown(
+    """<a href="https://www.amazon.com/Million-Random-Digits-Normal-Deviates/dp/0833030477">
+    <img src="https://statkomat.com/GLD/1955/1/1.png" width="800"><br>
+    </a>""",
+    unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+if pilih_topik == ":rainbow[1978]":
+    st.write('''<br><br><br><center><font color = "red" size = 7>Artikel Tahun Terbit 1978</font></center> ''', unsafe_allow_html = True)
+
+    st.write('''[1] <font color = "#0000ff">Judul: A new measure of irregularity of distribution</font><br><font color = "#ff00ff">Jurnal: Bulletin of the American Mathematical Society</font><br><font color = "#f4c430">Tahun Terbit Artikel: 1978</font><br><font color = "#32cd32">Publisher: American Mathematical Society</font><br><a href = "https://www.ams.org/journals/bull/1978-84-06/S0002-9904-1978-14532-7/" target = "_blank" style = "text-decoration:none">Link Artikel</a>
+
+
+
+             ''', unsafe_allow_html = True)
+    
+
+    st.markdown(
+    """<a href="https://www.ams.org/journals/bull/1978-84-06/S0002-9904-1978-14532-7/">
+    <img src="https://statkomat.com/GLD/1978/1/1.png" width="800"><br>
+    <img src="https://statkomat.com/GLD/1978/1/2.png" width="800"><br>
+    </a>""",
+    unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if pilih_topik == ":rainbow[1986]":
+    st.write('''<br><br><br><center><font color = "red" size = 7>Artikel Tahun Terbit 1986</font></center> ''', unsafe_allow_html = True)
+
+    st.write('''[1] <font color = "#0000ff">Judul: Goodness-of-Fit Techniques</font><br><font color = "#ff00ff">Jurnal: </font><br><font color = "#f4c430">Tahun Terbit Artikel: 1986</font><br><font color = "#32cd32">Publisher: Taylor & Francis</font><br><a href = "https://www.taylorfrancis.com/books/edit/10.1201/9780203753064/goodness-fit-techniques-ralphb-agostino" target = "_blank" style = "text-decoration:none">Link Artikel</a>
+
+
+
+             ''', unsafe_allow_html = True)
+    
+
+    st.markdown(
+    """<a href="https://www.taylorfrancis.com/books/edit/10.1201/9780203753064/goodness-fit-techniques-ralphb-agostino">
+    <img src="https://statkomat.com/GLD/1986/1/1.png" width="800"><br>
+    </a>""",
+    unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
