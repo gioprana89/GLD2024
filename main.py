@@ -179,6 +179,10 @@ if pilih_topik == ":rainbow[1986]":
 
 
 
+
+
+
+
 if pilih_topik == ":rainbow[1988]":
     st.write('''<br><br><br><center><font color = "red" size = 7>Artikel Tahun Terbit 1988</font></center> ''', unsafe_allow_html = True)
 
