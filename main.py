@@ -528,6 +528,26 @@ if pilih_topik == ":rainbow[2009]":
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 if pilih_topik == ":rainbow[2011]":
     st.write('''<br><br><br><center><font color = "red" size = 7>Artikel Tahun Terbit 2011</font></center> ''', unsafe_allow_html = True)
 
