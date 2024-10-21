@@ -51,7 +51,7 @@ st.write('''<style>
 
 pilih_topik = st.radio(
     "Tahun Terbit Artikel: ",
-    [":rainbow[1955]",":rainbow[1978]",":rainbow[1986]"  ,":rainbow[1991]",":rainbow[1993]",":rainbow[2000]",":rainbow[2001]", ":rainbow[2007]", ":rainbow[2008]", ":rainbow[2009]", ":rainbow[2010]",":rainbow[2011]",  ":rainbow[2015]",     ])
+    [":rainbow[1955]",":rainbow[1978]", ":rainbow[1979]" ,  ":rainbow[1986]", ":rainbow[1988]"  ,":rainbow[1991]",":rainbow[1993]",":rainbow[1999]",":rainbow[2000]",":rainbow[2001]", ":rainbow[2007]", ":rainbow[2008]", ":rainbow[2009]", ":rainbow[2010]",":rainbow[2011]",  ":rainbow[2015]",     ])
 
 
 
@@ -113,6 +113,44 @@ if pilih_topik == ":rainbow[1978]":
 
 
 
+if pilih_topik == ":rainbow[1979]":
+    st.write('''<br><br><br><center><font color = "red" size = 7>Artikel Tahun Terbit 1979</font></center> ''', unsafe_allow_html = True)
+
+    st.write('''[1] <font color = "#0000ff">Judul: Fitting a distribution to data using an alternative to moments</font><br><font color = "#ff00ff">Jurnal: IEEE Proceedings of the 1979 Winter Simulation Conference</font><br><font color = "#f4c430">Tahun Terbit Artikel: 1979</font><br><font color = "#32cd32">Publisher: </font><br><a href = "https://dl.acm.org/doi/10.5555/800134.804366" target = "_blank" style = "text-decoration:none">Link Artikel</a>
+
+
+
+             ''', unsafe_allow_html = True)
+    
+
+    st.markdown(
+    """<a href="https://dl.acm.org/doi/10.5555/800134.804366">
+    <img src="https://statkomat.com/GLD/1979/1/1.png" width="800"><br>
+    </a>""",
+    unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 if pilih_topik == ":rainbow[1986]":
@@ -141,6 +179,21 @@ if pilih_topik == ":rainbow[1986]":
 
 
 
+if pilih_topik == ":rainbow[1988]":
+    st.write('''<br><br><br><center><font color = "red" size = 7>Artikel Tahun Terbit 1988</font></center> ''', unsafe_allow_html = True)
+
+    st.write('''[1] <font color = "#0000ff">Judul: a study of the generalized tukey lambda family</font><br><font color = "#ff00ff">Jurnal: Communications in Statistics - Theory and Methods</font><br><font color = "#f4c430">Tahun Terbit Artikel: 1988</font><br><font color = "#32cd32">Publisher: Taylor & Francis</font><br><a href = "https://www.tandfonline.com/doi/abs/10.1080/03610928808829820" target = "_blank" style = "text-decoration:none">Link Artikel</a>
+
+
+
+             ''', unsafe_allow_html = True)
+    
+
+    st.markdown(
+    """<a href="https://www.tandfonline.com/doi/abs/10.1080/03610928808829820">
+    <img src="https://statkomat.com/GLD/1988/1/1.png" width="800"><br>
+    </a>""",
+    unsafe_allow_html=True)
 
 
 
@@ -204,6 +257,52 @@ if pilih_topik == ":rainbow[1993]":
     <img src="https://statkomat.com/GLD/1993/1/2.png" width="800"><br>
     </a>""",
     unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if pilih_topik == ":rainbow[1999]":
+    st.write('''<br><br><br><center><font color = "red" size = 7>Artikel Tahun Terbit 1999</font></center> ''', unsafe_allow_html = True)
+
+    st.write('''[1] <font color = "#0000ff">Judul: Theory & Methods: A Starship Estimation Method for the Generalized Lambda Distributions</font><br><font color = "#ff00ff">Jurnal: Australian & New Zealand Journal of Statistics</font><br><font color = "#f4c430">Tahun Terbit Artikel: 1999</font><br><font color = "#32cd32">Publisher: Wiley</font><br><a href = "https://onlinelibrary.wiley.com/doi/10.1111/1467-842X.00089" target = "_blank" style = "text-decoration:none">Link Artikel</a>
+
+
+
+             ''', unsafe_allow_html = True)
+    
+
+    st.markdown(
+    """<a href="https://onlinelibrary.wiley.com/doi/10.1111/1467-842X.00089">
+    <img src="https://statkomat.com/GLD/1999/1/1.png" width="800"><br>
+    </a>""",
+    unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
